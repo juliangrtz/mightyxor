@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MetroModernUI" Version="1.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Amgine.Common\Amgine.Common.csproj" />
+    <ProjectReference Include="..\Amgine.Core\Amgine.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Forms\OTP\DecryptForm.cs" />
+    <Compile Update="Forms\OTP\EncryptForm.cs" />
+    <Compile Update="Forms\SecretSharing\Reconstructor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\SecretSharing\Distributor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Tools\EntropyUtility.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Tools\FileWiper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Tools\KeyGenerator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Forms\SecretSharing\Reconstructor.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\SecretSharing\Distributor.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\Tools\EntropyUtility.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\Tools\FileWiper.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\Tools\KeyGenerator.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

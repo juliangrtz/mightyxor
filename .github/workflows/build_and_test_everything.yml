@@ -1,0 +1,42 @@
+name: Build and test every project
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches:
+      - '*'
+
+jobs:
+  build-and-test:
+    runs-on: windows-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+  
+    # Prerequisites
+    - name: Setup .NET 6
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 6.0.x
+        include-prerelease: true
+
+    - name: Restore dependencies
+      run: dotnet restore src/Amgine.sln
+  
+    # Building
+    - name: Build the CLI
+      run: dotnet build --no-restore src/Amgine.CLI/Amgine.CLI.csproj
+      
+    - name: Build the Common library
+      run: dotnet build --no-restore src/Amgine.Common/Amgine.Common.csproj
+      
+    - name: Build the Core library
+      run: dotnet build --no-restore src/Amgine.Core/Amgine.Core.csproj
+      
+    - name: Build the GUI
+      run: dotnet build --no-restore src/Amgine.GUI/Amgine.GUI.csproj
+      
+    # Testing
+    - name: Run unit tests
+      run: dotnet test src/Amgine.UnitTests/Amgine.UnitTests.csproj

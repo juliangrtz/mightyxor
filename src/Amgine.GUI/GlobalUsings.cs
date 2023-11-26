@@ -1,0 +1,1 @@
+﻿global using static Amgine.GUI.Utils.Constants;
