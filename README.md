@@ -3,7 +3,7 @@
 <img src="Images/logo.png" alt="Amgine's Logo"/>
 </p>
 
-Amgine [ˈɛmd͡ʒɪn] is an open source cryptography software based on .NET 6 with the primary aim of being information-theoretically secure.
+Amgine [ˈɛmd͡ʒɪn] is an open source cryptography software suite based on .NET 6 with the primary aim of being information-theoretically secure.
 
 It supports various en- and decryption algorithms and techniques, including
 - a one-time pad (OTP) mode,
@@ -18,7 +18,6 @@ It [was mathematically proven](http://math.umd.edu/~lcw/OneTimePad.pdf) that the
 
 ## Goals
 To put it in a (tiny) nutshell, we – as Amgine developers – are pursuing the following goals:
-
 
 - Security on all levels
     - Reliable, correctly implemented algorithms such as the OTP
