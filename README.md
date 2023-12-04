@@ -1,9 +1,9 @@
-# Amgine
+# MightyXOR (aka. Amgine)
 <p align="center">
 <img src="Images/logo.png" alt="Amgine's Logo"/>
 </p>
 
-Amgine [ˈɛmd͡ʒɪn] is an open source cryptography software suite based on .NET 6 with the primary aim of being information-theoretically secure, meaning its encrypted files cannot be decrypted even if an adversary has unlimited computing resources and time.
+MightyXOR / Amgine [ˈɛmd͡ʒɪn] is an open source cryptography software suite based on .NET 6 with the primary aim of being information-theoretically secure, meaning its encrypted files cannot be decrypted even if an adversary has unlimited computing resources and time.
 
 It supports various en- and decryption algorithms and techniques, including
 - a one-time pad (OTP) mode,
