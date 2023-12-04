@@ -58,6 +58,11 @@ Amgine also supports a secret sharing mode according to Adi Shamir's scheme base
 
 It is recommended to combine Amgine's features in order to maximize the security. For instance, it may be feasible to encrypt a sensitive file with a OTP including plausible deniability and split both the encrypted file and keys afterwards. Under the correct circumstances, it is impossible to break this cryptosystem.
 ## FAQ
+
+### Why C#?
+
+Good question. A port to C, C++ or Rust is planned.
+
 ### What does the name mean?
 
 Reading *Amgine* backwards gives the answer to this question. However, Amgine is supposed to be much easier to use than Enigma.
