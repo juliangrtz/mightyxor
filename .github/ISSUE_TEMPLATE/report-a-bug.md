@@ -4,7 +4,7 @@ about: If you encounter unexpected behaviour or a bug, feel free to create an is
   for it.
 title: "[BUG] "
 labels: Minor bug
-assignees: JulianGoeritz1337
+assignees: juliangrtz
 
 ---
 

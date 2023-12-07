@@ -16,7 +16,7 @@ You should be familiar with `git` if you want to contribute to the project. As a
 
 Adding upstream:
 ```
-git remote add upstream https://github.com/JulianGoeritz1337/amgine
+git remote add upstream https://github.com/juliangrtz/mightyxor
 ```
 
 Adding a branch based on amgine/main to your fork:
