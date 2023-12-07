@@ -1,9 +1,9 @@
-# Amgine
+# MightyXOR (aka. Amgine)
 <p align="center">
 <img src="Images/logo.png" alt="Amgine's Logo"/>
 </p>
 
-Amgine [ˈɛmd͡ʒɪn] is an open source cryptography software based on .NET 6 with the primary aim of being information-theoretically secure.
+MightyXOR / Amgine [ˈɛmd͡ʒɪn] is an open source cryptography software suite based on .NET 6 with the primary aim of being information-theoretically secure, meaning its encrypted files cannot be decrypted even if an adversary has unlimited computing resources and time.
 
 It supports various en- and decryption algorithms and techniques, including
 - a one-time pad (OTP) mode,
@@ -18,7 +18,6 @@ It [was mathematically proven](http://math.umd.edu/~lcw/OneTimePad.pdf) that the
 
 ## Goals
 To put it in a (tiny) nutshell, we – as Amgine developers – are pursuing the following goals:
-
 
 - Security on all levels
     - Reliable, correctly implemented algorithms such as the OTP
@@ -59,6 +58,11 @@ Amgine also supports a secret sharing mode according to Adi Shamir's scheme base
 
 It is recommended to combine Amgine's features in order to maximize the security. For instance, it may be feasible to encrypt a sensitive file with a OTP including plausible deniability and split both the encrypted file and keys afterwards. Under the correct circumstances, it is impossible to break this cryptosystem.
 ## FAQ
+
+### Why C#?
+
+Good question. A port to C, C++ or Rust is planned.
+
 ### What does the name mean?
 
 Reading *Amgine* backwards gives the answer to this question. However, Amgine is supposed to be much easier to use than Enigma.
