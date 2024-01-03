@@ -34,6 +34,12 @@ In the future, we intend to extend Amgine to support more techniques:
 - An API for hardware random number generators (HRNGs)
 - Cross-plattform support for Linux and macOS concerning Amgine's graphical user interface
 
+## Plans for the future
+
+– Implementation of more cryptographic algorithms (AES, DES, RSA, NaCl etc.)
+– C port for higher efficiency
+– Better performance for large files > 4 GB
+
 ## Usage
 
 Amgine provides a graphical user interface which currently only runs on Windows operating systems.
