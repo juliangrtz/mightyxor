@@ -36,9 +36,9 @@ In the future, we intend to extend Amgine to support more techniques:
 
 ## Plans for the future
 
-– Implementation of more cryptographic algorithms (AES, DES, RSA, NaCl etc.)
-– C port for higher efficiency
-– Better performance for large files > 4 GB
+- Implementation of more cryptographic algorithms (AES, DES, RSA, NaCl etc.)
+- C port for higher efficiency
+- Better performance for large files > 4 GB
 
 ## Usage
 
