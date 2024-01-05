@@ -50,6 +50,8 @@ A cross-plattform CLI is being worked on.
 
 ### GUI (graphical user interface)
 
+TODO: Add more pictures here
+
 The GUI is based on Windows Forms and will be replaced by a WPF-based application as soon as possible. As depicted in this screenshot, it is divided into several components:
 
 <img src="Images/main_menu.png" alt="Amgine's GUI"/>
@@ -71,7 +73,7 @@ Good question. A port to C, C++ or Rust is planned.
 
 ### What does the name mean?
 
-Reading *Amgine* backwards gives the answer to this question. However, Amgine is supposed to be much easier to use than Enigma.
+Reading *Amgine* backwards gives the answer to this question. However, Amgine is supposed to be much easier to use than the Enigma in WWII.
 
 ### Should I use Amgine instead of Veracrypt or BitLocker to encrypt my sensitive data?
 
