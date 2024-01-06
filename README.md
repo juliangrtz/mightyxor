@@ -6,8 +6,8 @@
 MightyXOR / Amgine [ˈɛmd͡ʒɪn] is an open source cryptography software suite based on .NET 6 with the primary aim of being information-theoretically secure, meaning its encrypted files cannot be decrypted even if an adversary has unlimited computing resources and time.
 
 It supports various en- and decryption algorithms and techniques, including
-- a one-time pad (OTP) mode,
-- Shamir secret sharing (SSS) and
+- the [one-time pad](https://en.wikipedia.org/wiki/One-time_pad) (OTP),
+- [Shamir secret sharing](https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing) (SSS) and
 - plausible deniability.
 
 ## Context
