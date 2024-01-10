@@ -50,8 +50,6 @@ A cross-plattform CLI is being worked on.
 
 ### GUI (graphical user interface)
 
-TODO: Add more pictures here
-
 The GUI is based on Windows Forms and will be replaced by a WPF-based application as soon as possible. As depicted in this screenshot, it is divided into several components:
 
 <img src="Images/main_menu.png"/>
