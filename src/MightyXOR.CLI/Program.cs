@@ -1,6 +1,7 @@
 ﻿using MightyXOR.CLI.Handlers;
 using MightyXOR.CLI.Options;
 using System.Reflection;
+using MightyXOR.Common.Logging;
 
 namespace MightyXOR.CLI;
 
