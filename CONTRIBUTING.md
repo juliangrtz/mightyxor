@@ -1,9 +1,9 @@
-# Contributing to Amgine
+# Contributing to MightyXOR
 
 We welcome any contributors and contributions to this software project. 
 Please do not hesitate to open pull requests and ask us about any issue you encounter while writing your code.
 If you are here, you already want to help the project, so feel free to ask anything.
-As an Amgine developer, there are a few recommendations to follow:
+As a MightyXOR developer, there are a few recommendations to follow:
 
 ## Developer guide
 
@@ -19,7 +19,7 @@ Adding upstream:
 git remote add upstream https://github.com/juliangrtz/mightyxor
 ```
 
-Adding a branch based on amgine/main to your fork:
+Adding a branch based on mightyxor/main to your fork:
 ```
 git checkout upstream/main
 git pull upstream main

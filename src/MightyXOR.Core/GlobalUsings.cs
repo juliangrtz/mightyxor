@@ -1,0 +1,1 @@
+﻿global using static MightyXOR.Common.Logging.Logger;

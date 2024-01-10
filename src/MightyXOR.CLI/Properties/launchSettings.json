@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MightyXOR.CLI": {
+      "commandName": "Project",
+      "commandLineArgs": "keygen 2048 -p key.test -v 4"
+    }
+  }
+}
