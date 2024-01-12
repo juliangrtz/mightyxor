@@ -74,7 +74,7 @@ It is recommended to combine MightyXOR's features in order to maximize the secur
 
 ### Why C#?!
 
-Good question. A port to C, C++ or Rust is planned.
+Good question. A port to C, C++ or Rust is planned, especially because Windows Forms is severely outdated.
 
 ### What does the name mean?
 
